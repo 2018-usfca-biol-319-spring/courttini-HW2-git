@@ -25,11 +25,11 @@ Steps:
 6. This should download the repository from GitHub and set up a new project for you in RStudio
 7. Now, just as we did last week, create a new R script file in the code directory that accomplishes the following:
   * Reads in the `ltr_massdata.csv` dataset from the `data` directory
-  * Uses the `subset()` function to select all measurements from only one `SiteID` (it can be any of them) - the available sites are: "BART", "GUAN", "HARV", "SRER", "STEI", "TREE", "UNDE"
+  * Uses the `subset()` function to select all measurements from only one `SiteID` (it can be any of them) - the available sites are: "BART", "GUAN", "HARV", "SRER", "STEI", "TREE", "UNDE". You should also select only one litter type from the following: "Flowers", "Leaves", "Mixed", "Needles", "Other", "Seeds", "Twigs/branches", "Woody material".
   * Create a properly labelled scatterplot with the variable `collectDate` on the x axis and `dryMass` on the y axis. You will need to use the `as.POSIXct()` function like we did in class in order to have the x axis format properly. Save this scatterplot into a pdf file in the `output` directory.
-  * Repeat this process (subsetting to a new variable, making a scatterplot, saving to a file) with a second site of your choice.
+  * Repeat this process with a second site of your choice (subsetting the data from a different site for the same functional group, making a scatterplot, saving to a file).
 8. Add and commit your R script as you work on it.
-8. Create a new file in RStudio called `Analysis.txt`. In this file, write one to two paragraphs describing the differences you see in the two plots from the different sites. What do you think could be the ecological reason for the differences or lack of differences that you observed, based on your reading of the overview information about each of the sites on the NEON website.
+8. Create a new file in RStudio called `Analysis.txt`. In this file, write one to two paragraphs describing the differences you see in the two plots from the different sites. Explain what you think could be the ecological reason for the differences or lack of differences that you observed, based on your reading of the overview information about each of the sites on the NEON website. You don't have to have the right answer (if there even is one), but the goal is for you to apply ecological thinking to infer why you observe different patterns in the data.
 9. Add and commit this Analysis file when you are done.
 10. Push your commits back to your repository on GitHub.
 11. Open a pull request back to the class repository to submit your assignment.
