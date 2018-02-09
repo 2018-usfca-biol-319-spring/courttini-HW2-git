@@ -27,3 +27,8 @@ plot(x = as.POSIXct(tree_flower_data$collectDate),
      ylab = "Dry mass of flowers in grams",
      pch = 2)
 dev.off()
+
+# Subset out data as HARV from Harvard Forest
+
+harv_data <- subset(litter_data,
+                    siteID == "HARV")
