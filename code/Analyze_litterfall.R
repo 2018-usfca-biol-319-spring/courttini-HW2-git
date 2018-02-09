@@ -13,7 +13,7 @@ tree_data <- subset(litter_data,
 
 # Let's first look at just flower mass data 
 
-guan_flower_data <-subset(guan_data,
+tree_flower_data <-subset(tree_data,
                           functionalGroup == "Flowers")
 
 # Make a scatterplot of flower mass by date 
