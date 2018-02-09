@@ -18,11 +18,11 @@ tree_flower_data <-subset(tree_data,
 
 # Make a scatterplot of flower mass by date 
 
-pdf("output/GUAN_flower_mass_over_time_scatterplot.pdf")
+pdf("output/TREE_flower_mass_over_time_scatterplot.pdf")
 
-plot(x = as.POSIXct(guan_flower_data$collectDate),
-     y = guan_flower_data$dryMass,
-     main = "Dry mass of flowers fallen in Guan",
+plot(x = as.POSIXct(tree_flower_data$collectDate),
+     y = tree_flower_data$dryMass,
+     main = "Dry mass of flowers fallen in Treehaven",
      xlab = "Date",
      ylab = "Dry mass of flowers in grams",
      pch = 2)
