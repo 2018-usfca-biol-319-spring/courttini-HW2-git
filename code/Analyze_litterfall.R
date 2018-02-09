@@ -32,3 +32,8 @@ dev.off()
 
 harv_data <- subset(litter_data,
                     siteID == "HARV")
+
+# Let's first look at just flower mass data 
+
+harv_flower_data <-subset(harv_data,
+                          functionalGroup == "Flowers")
