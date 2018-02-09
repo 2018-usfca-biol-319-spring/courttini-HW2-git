@@ -6,10 +6,10 @@
 litter_data <- read.csv("data/ltr_massdata.csv",
                           header = TRUE)
 
-# Subset out data from the Guan Experimental forest 
+# Subset out data as TREE from Treehaven
 
-guan_data <- subset(litter_data,
-       siteID == "GUAN")
+tree_data <- subset(litter_data,
+       siteID == "TREE")
 
 # Let's first look at just flower mass data 
 
