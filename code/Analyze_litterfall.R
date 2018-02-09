@@ -37,3 +37,12 @@ harv_data <- subset(litter_data,
 
 harv_flower_data <-subset(harv_data,
                           functionalGroup == "Flowers")
+
+# Make a scatterplot of flower mass by date for HARV
+
+plot(x = as.POSIXct(harv_flower_data$collectDate),
+     y = harv_flower_data$dryMass,
+     main = "Dry mass of flowers fallen in Harvard Forest",
+     xlab = "Date",
+     ylab = "Dry mass of flowers in grams",
+     pch = 2)
