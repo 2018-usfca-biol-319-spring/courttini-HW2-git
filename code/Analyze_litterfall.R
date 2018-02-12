@@ -1,6 +1,8 @@
-# A script to visualize NEON data on litterfall
 # Courtney Lopez
+# cnlopez4@usfca.edu
 # February 8, 2018 
+
+# A script to visualize NEON data on litterfall
 
 # Read in the data 
 litter_data <- read.csv("data/ltr_massdata.csv",
